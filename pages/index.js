@@ -29,7 +29,29 @@ import dynamic from "next/dynamic";
 const FCMClient = dynamic(() => import("../components/FCMClient"), { ssr: false });
 
 export default function Home() {
+  const [vn, setVn] = useState("");
+  const [showQueue, setShowQueue] = useState(false);
   const [fcmToken, setFcmToken] = useState("");
+  const [queueNumber, setQueueNumber] = useState("");
+  const [queueCount, setQueueCount] = useState("");
+
+  const handleVNChange = (e) => {
+    const value = e.target.value;
+	
+    setVn(value);
+	if(value === "VN00001"){
+		setShowQueue(true);
+		setQueueNumber("A030");
+		setQueueCount("05");
+	}else if(value === "VN00002"){
+		setShowQueue(true);
+		setQueueNumber("A031");
+		setQueueCount("06");
+	}else{
+		setShowQueue(false);
+	}
+     // show เมื่อมีค่ากรอก
+  };
 
   return (
     <div className="container">
@@ -37,19 +59,20 @@ export default function Home() {
 
       <div className="form-group">
         <label className="label" htmlFor="vn">VN</label>
-        <input type="text" id="vn" defaultValue="VN000XX" />
+        <input type="text" id="vn" value={vn} onChange={handleVNChange} placeholder="กรอก VN" />
       </div>
 
+	{showQueue && (
       <div className="queue-box">
         <div className="current-queue">คิวปัจจุบัน</div>
-        <div className="queue-number">A0XX</div>
+        <div className="queue-number">{queueNumber}</div>
         <div className="waiting-info">
           <span>มีคิวก่อนหน้า :</span>
-          <span className="waiting-count">XX</span>
+          <span className="waiting-count">{queueCount}</span>
           <span>คิว</span>
         </div>
       </div>
-
+	) }
       <hr style={{ margin: "20px 0" }} />
       <FCMClient onTokenReceived={setFcmToken} />
       {fcmToken && (
