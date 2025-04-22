@@ -1,12 +1,13 @@
 importScripts("https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js");
 importScripts("https://www.gstatic.com/firebasejs/10.8.1/firebase-messaging-compat.js");
 
-firebase.initializeApp({
-  apiKey: "AIzaSyAOwKbD8GI0eMiKTiSCB3_yrUHLKHLIfOk",
-  authDomain: "siph-scom.firebaseapp.com",
-  projectId: "siph-scom",
-  messagingSenderId: "606274732206",
-  appId: "1:606274732206:web:42bb19977644c49331ad3f",
+firebase.initializeApp({  
+  apiKey: "AIzaSyD-NYSiVbmYMPS-tNpixEqfF_cnyCy3xVs",
+  authDomain: "dev-poc-filebase.firebaseapp.com",
+  projectId: "dev-poc-filebase",
+  messagingSenderId: "367197170682",
+  appId: "1:367197170682:web:dba1739766ddeb99681243",
+  
 });
 
 const messaging = firebase.messaging();
