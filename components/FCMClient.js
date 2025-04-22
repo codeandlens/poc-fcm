@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { messaging, getToken, onMessage } from "../lib/firebase";
 
-export default function FCMClient() {
+export default function FCMClient({ onTokenReceived }) {
   useEffect(() => {
     if (typeof window !== "undefined" && "Notification" in window) {
       Notification.requestPermission().then((permission) => {
@@ -14,6 +14,7 @@ export default function FCMClient() {
             .then((currentToken) => {
               if (currentToken) {
                 console.log("FCM Token:", currentToken);
+				onTokenReceived(currentToken);
               } else {
                 console.log("No registration token available.");
               }
@@ -29,7 +30,7 @@ export default function FCMClient() {
         }
       });
     }
-  }, []);
+  }, [onTokenReceived]);
 
   return null;
 }
