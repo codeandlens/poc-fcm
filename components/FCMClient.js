@@ -9,7 +9,7 @@ export default function FCMClient() {
       Notification.requestPermission().then((permission) => {
         if (permission === "granted") {
           getToken(messaging, {
-            vapidKey: "BD7w5MC7PF6bdcKptLG84hdMTwBzSiZ7VAg_rJJV86NKupzZKBsibg1jW30zFP_I_fDtMflTovBYC5OuWLqgBi4"
+            vapidKey: "BC3zVLRv_OVMWZ7UBb--UBY95AnGrWctKhWSJNQ3qlR6X03Im6C3hQofKnE3mJFTryUL3K21parJ20wjz8o-Cgw"
           })
             .then((currentToken) => {
               if (currentToken) {

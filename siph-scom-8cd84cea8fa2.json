@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "siph-scom",
+  "private_key_id": "8cd84cea8fa2423096166138347298806db1e663",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC6AmY2+rRnvPdP\nGnUc02gcPCWtef+8GpQtqtnqWme1UQCnDkImhWiDb3ujdhNaVLDTyk0LLn8D8XVl\nkkWnyKILTJ77m/f9hoFjvqR47SCv0cHLAQB5xMmYmHZE2A+rRHdJMYChstIOPUKj\ndQeyqhdEYpM8+Xz2S7KnuMlVJVwPRSgC5minDycJLkVuu4NLaNXJYFZcrBQTZwnE\nTUIhs7FETHWqmYWf7NeAY8Uvew2HCQOWUxS1vm+jg70VI+8BhhXKxcLA+w3YGCeg\nEtMVdnF2LDlWve90oC5ndGCfAAoMIJRs49orAN7QtH8rdAQoDCVpKbyWdDE07bsD\ndPmoiXP7AgMBAAECggEALGGoK9QTuXDP/VLNwKv8ekgroUGrsCETW/YY+p7Jgeyq\n4DE5vWE1d67g7DafFX2Bl3b8fP+CFNnG7g5BinAHofSNNnGXcSlns/nn2maR1wGQ\nYLSDfYpjo4I1LeXzjyTN5WvnSi2Viwo43TFuPcXxuUJf6TuKAmY7YWNovmUkmwu4\nAIYKAR3gvogSmDxAXPKImr5PrIJKSfbGSmddZev0cKnbJHFgPlZyEmVDeSZASGyW\nJV0J2ExaH7LuAnpgEksK2DjCua2a0vJQQ8z4j7pO8J8QJPLaSZOtqzcXoEMZzz6W\nmmtbHi7vaHpHXviaGJM8FCgdTp63U5PUIT+aencbWQKBgQDfGXg8dMIM1GKJ6EPU\nB8sx3HoKktkMXWI9YuNCpkHYmri93egBKnq1UB5mDIg1RYukZGF2/wI6FYkdd+Qz\n87r8q3UxBtQiAe44QvrJf5xtMotSOiJ8iQbhSrhVxkqc84SyCgNZLP3j5m5ap/G6\nz5Dk8S6NBCK0JLprF9b5LnCCBQKBgQDVcLC/IKNqMLjrcHuzw1S6tbqxLfgMmhaK\ncyqUDFepmc52OiTw7JX2wfzQy+ww3QEJtE50fCvfLZl674JSFfHIFFYBY7Sbkyc/\nI8YPTc2Yn4mkj8vv7OzsJWHvx1wFR318LeZSxFFfiyUO9v5Ques0j2wCllQ1AgD9\nwDy+YmX9/wKBgDnRB+/i8kcQ41iJ8MoKGwaY9Ke41rb1nHf8IJktLPNNZYMO9wkW\nUSab1MTtin8DvuSjfv6vp4wV+KrCX0l3aIYCiSRjeKY3idzavtNpVsiVyLVOi5Fq\nkXXhP1Q7RyrVkRXysltx5XoiRYcI7wRStmIefsncwIGe4xDN5NA+0LlhAoGAQU7y\n9fhxqCtyWbAYWb/Z7CtxDYfIT2rSnNhyXcyNAjsqvmg6J3HszQ08Y1MSWT02dRaz\nrtbTwb09Ki2hDabjTVpTmqc8eyICr0It9z7SOvIN9sl9GFPBhtxFZE327TKbxeRx\nhj/FultkInkXBfJtcq6z2PLQn0uWrA4nSAXpuVcCgYBvepnRNtF+3k4dFdGus7i/\nemN+per6WMoGgdPR6EfgNuZszBuNA9tl/INuIDTFeK8nHuKI2N0shQVY2lnRWJ6i\nqvCmKkoMG0A4uYeTj71I4O6Ay4C/WtGSfW/z7u/7FFDUU905gd+sEGWiYVjKLBI2\ngEo+33oxf41rcoDVRGBGJA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "fcm-siph-scom@siph-scom.iam.gserviceaccount.com",
+  "client_id": "116234509427896846864",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fcm-siph-scom%40siph-scom.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
